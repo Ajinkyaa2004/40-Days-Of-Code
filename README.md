@@ -8,7 +8,7 @@ I'm solving 30 coding challenges in 30 days — 10 each from JavaScript, React.j
 
 | Day | Language     | Date       | What I Did                        |
 |-----|--------------|------------|-----------------------------------|
-| 1   | JavaScript   | 18 Jun 2025 | Solved 2 array problems           |
+| 1   | JavaScript   | 18 Jun 2025 | Basic Calculator (Syntax, Data Types, Operators, Functions)         |
 | 2   | JavaScript   |            |                                   |
 | ... | ReactJS      |            |                                   |
 | ... | Java         |            |                                   |
