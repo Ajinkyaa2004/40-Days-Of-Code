@@ -6,12 +6,39 @@ I'm solving 30 coding challenges in 30 days — 10 each from JavaScript, React.j
 
 ## 📅 Progress Log
 
-| Day | Language     | Date       | What I Did                        |
-|-----|--------------|------------|-----------------------------------|
-| 1   | JavaScript   | 18 Jun 2025 | Basic Calculator (Syntax, Data Types, Operators, Functions)         |
-| 2   | JavaScript   |            |                                   |
-| ... | ReactJS      |            |                                   |
-| ... | Java         |            |                                   |
+| Day | Language     | Date       | What I Did                                                          |
+|-----|--------------|------------|-----------------------------------                                  |
+| 1   | JavaScript   |18 Jun 2025 | Basic Calculator (Syntax, Data Types, Operators, Functions)         |
+| 2   | JavaScript   |            |                                                                     |
+| 3   | JavaScript   |            |                                                                     |
+| 4   | JavaScript   |            |                                                                     |
+| 5   | JavaScript   |            |                                                                     |
+| 6   | JavaScript   |            |                                                                     |
+| 7   | JavaScript   |            |                                                                     |
+| 8   | JavaScript   |            |                                                                     |                                 
+| 9   | JavaScript   |            |                                                                     |                                 
+| 10  | JavaScript   |            |                                                                     |                                  
+| 11  | React js     |            |                                                                     |                                  
+| 12  | React js     |            |                                                                     |                                  
+| 13  | React js     |            |                                                                     |
+| 14  | React js     |            |                                                                     |
+| 15  | React js     |            |                                                                     |
+| 16  | React js     |            |                                                                     |
+| 17  | React js     |            |                                                                     |
+| 18  | React js     |            |                                                                     |
+| 19  | React js     |            |                                                                     |
+| 20  | React js     |            |                                                                     |
+| 21  | Java         |            |                                                                     |
+| 22  | Java         |            |                                                                     |
+| 23  | Java         |            |                                                                     |
+| 24  | Java         |            |                                                                     |
+| 25  | Java         |            |                                                                     |
+| 26  | Java         |            |                                                                     |
+| 27  | Java         |            |                                                                     |
+| 28  | Java         |            |                                                                     |
+| 29  | Java         |            |                                                                     |
+| 30  | Java         |            |                                                                     |
+
 
 ---
 
