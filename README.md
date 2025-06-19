@@ -8,8 +8,8 @@ I'm solving 30 coding challenges in 30 days — 10 each from JavaScript, React.j
 
 | Day | Language     | Date        | What I Did                                                          |
 |-----|--------------|------------ |-------------------------------------------------------------------- |
-| 1   | JavaScript   |18 Jun 2025  | Basic Calculator (Syntax, Data Types, Operators, Functions)         |
-| 2   | JavaScript   |19 June 2025 | Grade Calculator (Conditional Statements, Functions)                                                                     |
+| 1   | JavaScript   |18 June 2025 | Basic Calculator (Syntax, Data Types, Operators, Functions)         |
+| 2   | JavaScript   |19 June 2025 | Grade Calculator (Conditional Statements, Functions)                |
 | 3   | JavaScript   |             |                                                                     |
 | 4   | JavaScript   |             |                                                                     |
 | 5   | JavaScript   |             |                                                                     |
