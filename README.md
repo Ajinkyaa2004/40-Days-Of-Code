@@ -10,7 +10,7 @@ I'm solving 30 coding challenges in 30 days — 10 each from JavaScript, React.j
 |-----|--------------|------------ |-------------------------------------------------------------------- |
 | 1   | JavaScript   |18 June 2025 | Basic Calculator (Syntax, Data Types, Operators, Functions)         |
 | 2   | JavaScript   |19 June 2025 | Grade Calculator (Conditional Statements, Functions)                |
-| 3   | JavaScript   |             |                                                                     |
+| 3   | JavaScript   |20 June 2025 | Array Manipulator (Arrays, Loops, Array Methods)                    |
 | 4   | JavaScript   |             |                                                                     |
 | 5   | JavaScript   |             |                                                                     |
 | 6   | JavaScript   |             |                                                                     |
