@@ -5,6 +5,7 @@ I'm solving 30 coding challenges in 30 days — 10 each from JavaScript, React.j
 ---
 
 ## 📅 Progress Log
+## 📅 Progress Log
 
 | Day | Language     | Date        | What I Did                                                          |
 |-----|--------------|------------ |-------------------------------------------------------------------- |
@@ -38,6 +39,8 @@ I'm solving 30 coding challenges in 30 days — 10 each from JavaScript, React.j
 | 28  | Java         |             |                                                                     |
 | 29  | Java         |             |                                                                     |
 | 30  | Java         |             |                                                                     |
+
+
 
 
 ---
