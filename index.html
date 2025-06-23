@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My To Do List</title>
+</head>
+
+<body>
+    <h1>My To Do List</h1>
+
+    <input type="text" id="todoInput" placeholder="Enter a new Task">
+    <button id="addTodoBtn" >Add To Do Button</button>
+
+    <ul id="todoList"></ul>
+
+</body>
+
+
+<script>
+const input = document.getElementById('todoInput');
+const button = document.getElementById('addTodoBtn');
+const todoList = document.getElementById('todoList');
+
+button.addEventListener('click', function() {
+    const task = input.value.trim();
+
+    if (task !== '') {
+        const li = document.createElement('li');
+        li.textContent = task;
+        todoList.appendChild(li);
+        input.value = '';
+        input.focus();
+    }
+});
+</script>
+
+
+</html>
