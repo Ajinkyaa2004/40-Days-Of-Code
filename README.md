@@ -14,7 +14,7 @@ I'm solving 30 coding challenges in 30 days — 10 each from JavaScript, React.j
 | 3   | JavaScript   |20 June 2025 | Array Manipulator (Arrays, Loops, Array Methods)                    |
 | 4   | JavaScript   |21 June 2025 | Object Explorer (Objects, Destructuring)                            |
 | 5   | JavaScript   |23 June 2025 | Simple To-Do List (DOM Manipulation - Basic)                        |
-| 6   | JavaScript   |             |                                                                     |
+| 6   | JavaScript   |24 June 2025 |Dynamic Styling (DOM Manipulation - Styles)                          |
 | 7   | JavaScript   |             |                                                                     |
 | 8   | JavaScript   |             |                                                                     |                                 
 | 9   | JavaScript   |             |                                                                     |                                 
