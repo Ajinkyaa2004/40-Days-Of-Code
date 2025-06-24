@@ -1,0 +1,64 @@
+<!-- Problem 6: Dynamic Styling (DOM Manipulation - Styles)
+Goal: Change element styles dynamically based on user interaction.
+Tasks:
+HTML Setup: Create a basic HTML file with:
+A <div id="box" style="width: 100px; height: 100px; background-color: blue;"></div>
+Three buttons: <button id="redBtn">Red</button>, <button id="greenBtn">Green</button>, <button id="boldBtn">Toggle Bold</button>
+Change Color: When "Red" button is clicked, change the box's background color to red. When "Green" is clicked, change it to green.
+Toggle Bold: When "Toggle Bold" button is clicked, toggle a CSS class (e.g., bold-text) on the box element that makes its text font-weight: bold;. If the class is present, remove it; if absent, add it. (You'll need to add a small text inside the box for this).
+Concepts Covered: DOM Selection (getElementById), style property, classList.add(), classList.remove(), classList.toggle(), Event Handling. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Styling</title>
+    <style>
+    #box {
+      width: 100px;
+      height: 100px;
+      background-color: blue;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+
+    .bold-text {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+    <div id="box"> Text </div>
+
+    <button id="redBtn">Red</button>
+    <button id="greenBtn">Green</button>
+    <button id="boldBtn">Toggle Bold</button>
+    
+</body>
+
+<script>
+
+    const box = document.getElementById('box');
+    const redBtn = document.getElementById('redBtn');
+    const greenBtn = document.getElementById('greenBtn');
+    const boldBtn = document.getElementById('boldBtn');
+
+        redBtn.addEventListener('click', function () {
+      box.style.backgroundColor = 'red';
+    });
+
+    greenBtn.addEventListener('click', function () {
+      box.style.backgroundColor = 'green';
+    });
+
+    boldBtn.addEventListener('click', function () {
+      box.classList.toggle('bold-text');
+    });
+
+</script>
+</html>
