@@ -1,0 +1,50 @@
+// <!-- Problem 7: Countdown Timer (Asynchronous JS - setTimeout, setInterval)
+// Goal: Create a simple countdown timer that updates every second.
+// Tasks:
+// HTML Setup: Create an HTML file with an <p id="timerDisplay"> that will show the countdown.
+// Start Countdown: Write a function startCountdown(seconds):
+// Initialize a counter variable with the given seconds.
+// Update timerDisplay with the current seconds value immediately.
+// Use setInterval() to decrement the seconds every 1000ms (1 second).
+// Stop the interval using clearInterval() when seconds reaches 0, and display "Time's Up!"
+// Trigger: Call startCountdown(10) to start a 10-second timer.
+// Concepts Covered: Asynchronous JavaScript (setInterval, clearInterval, setTimeout), DOM Manipulation (textContent), Variables. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Countdown Timer</title>
+</head>
+<body>
+
+  <h1>Countdown Timer</h1>
+  <p id="timerDisplay">10</p>
+
+  <script>
+    function startCountdown(seconds) {
+      let timeLeft = seconds;
+
+      const display = document.getElementById('timerDisplay');
+      display.textContent = timeLeft; // Show initial value immediately
+
+      const intervalId = setInterval(function () {
+        timeLeft--; // Decrease time by 1
+
+        if (timeLeft >= 0) {
+          display.textContent = timeLeft;
+        }
+
+        if (timeLeft === 0) {
+          clearInterval(intervalId); // Stop timer
+          display.textContent = "Time's Up!";
+        }
+      }, 1000);
+    }
+
+    // Start countdown from 10 seconds
+    startCountdown(10);
+  </script>
+
+</body>
+</html>
