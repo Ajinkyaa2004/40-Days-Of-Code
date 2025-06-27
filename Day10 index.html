@@ -1,0 +1,108 @@
+// Problem 10: Image Carousel/Slider (DOM Manipulation, Loops, setTimeout/setInterval - Advanced)
+// Goal: Create a dynamic image carousel that changes images automatically or with buttons.
+// Tasks:
+// HTML Setup:
+// A div for the carousel (id="carousel").
+// Inside, an img tag (id="carouselImage").
+// "Previous" and "Next" buttons (id="prevBtn", id="nextBtn").
+// Image Array: Define an array of image URLs (you can use placeholder image URLs like https://via.placeholder.com/400x200?text=Image1).
+// Display Image: Write a function displayImage(index) that sets the src attribute of carouselImage to the image at the given index from your array.
+// Navigation Buttons:
+// Implement click handlers for "Previous" and "Next" buttons.
+// "Next" should show the next image in the array. If at the end, loop back to the beginning.
+// "Previous" should show the previous image. If at the beginning, loop to the end.
+// Keep track of the current image index using a variable.
+// Auto-Play (Optional Bonus): Use setInterval() to automatically advance to the next image every few seconds. Add a "Pause" button to stop the auto-play.
+// Concepts Covered: DOM Manipulation (src attribute, setAttribute), Arrays, Loops (for cycling through images), Event Handling, setTimeout/setInterval (for auto-play), Variables for state.
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Image Carousel</title>
+  <style>
+    #carousel {
+      width: 400px;
+      margin: auto;
+      text-align: center;
+    }
+    img {
+      width: 100%;
+      height: auto;
+    }
+    button {
+      margin: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="carousel">
+    <img id="carouselImage" src="" alt="Carousel Image">
+    <div>
+      <button id="prevBtn">Previous</button>
+      <button id="nextBtn">Next</button>
+      <button id="pauseBtn">Pause</button>
+    </div>
+  </div>
+
+  <script>
+    // Image URLs array
+    const images = [
+      'https://via.placeholder.com/400x200?text=Image+1',
+      'https://via.placeholder.com/400x200?text=Image+2',
+      'https://via.placeholder.com/400x200?text=Image+3',
+      'https://via.placeholder.com/400x200?text=Image+4'
+    ];
+
+    // DOM Elements
+    const carouselImage = document.getElementById('carouselImage');
+    const prevBtn = document.getElementById('prevBtn');
+    const nextBtn = document.getElementById('nextBtn');
+    const pauseBtn = document.getElementById('pauseBtn');
+
+    // Track current image index
+    let currentIndex = 0;
+
+    // Display image by index
+    function displayImage(index) {
+      carouselImage.src = images[index];
+    }
+
+    // Show next image
+    function showNextImage() {
+      currentIndex = (currentIndex + 1) % images.length;
+      displayImage(currentIndex);
+    }
+
+    // Show previous image
+    function showPrevImage() {
+      currentIndex = (currentIndex - 1 + images.length) % images.length;
+      displayImage(currentIndex);
+    }
+
+    // Set initial image
+    displayImage(currentIndex);
+
+    // Add event listeners for buttons
+    nextBtn.addEventListener('click', showNextImage);
+    prevBtn.addEventListener('click', showPrevImage);
+
+    // Auto-play logic
+    let intervalId = setInterval(showNextImage, 3000); // Every 3 seconds
+
+    pauseBtn.addEventListener('click', function () {
+      if (intervalId) {
+        clearInterval(intervalId);
+        intervalId = null;
+        pauseBtn.textContent = "Play";
+      } else {
+        intervalId = setInterval(showNextImage, 3000);
+        pauseBtn.textContent = "Pause";
+      }
+    });
+  </script>
+
+</body>
+</html>

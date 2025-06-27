@@ -17,8 +17,8 @@ I'm solving 30 coding challenges in 30 days — 10 each from JavaScript, React.j
 | 6   | JavaScript   |24 June 2025 | Dynamic Styling (DOM Manipulation - Styles)                                             |
 | 7   | JavaScript   |25 June 2025 | Countdown Timer (Asynchronous JS - setTimeout, setInterval)                             |
 | 8   | JavaScript   |26 June 2025 | Fetching User Data (Asynchronous JS - fetch, Promises)                                  |                                 
-| 9   | JavaScript   |27 June 2025 | Form Validation (DOM Manipulation, Conditional Logic, String Methods)                     |                                 
-| 10  | JavaScript   |             |                                                                                         |                                  
+| 9   | JavaScript   |27 June 2025 | Form Validation (DOM Manipulation, Conditional Logic, String Methods)                   |                                 
+| 10  | JavaScript   |28 June 2025 | Image Carousel/Slider (DOM Manipulation, Loops, setTimeout/setInterval - Advanced)      |                                  
 | 11  | React js     |             |                                                                                         |                                  
 | 12  | React js     |             |                                                                                         |                                  
 | 13  | React js     |             |                                                                                         |
