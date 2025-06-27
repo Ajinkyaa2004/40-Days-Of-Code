@@ -1,0 +1,18 @@
+<!-- Problem 9: Form Validation (DOM Manipulation, Conditional Logic, String Methods)
+Goal: Validate user input in a form.
+Tasks:
+HTML Setup: Create an HTML form with:
+An input field for Email (id emailInput).
+An input field for Password (id passwordInput).
+A Submit button (id submitBtn).
+Empty div or p elements below each input to display error messages (e.g., id="emailError", id="passwordError").
+Event Listener: Add an event listener to the submitBtn for the click event. Prevent the default form submission behavior.
+Validation Logic: Inside the event listener:
+Email Validation:
+Check if the email input is empty. If so, display "Email is required." in emailError.
+Check if the email contains "@" and ".". If not, display "Invalid email format."
+Password Validation:
+Check if the password input is empty. If so, display "Password is required." in passwordError.
+Check if the password is at least 6 characters long. If not, display "Password must be at least 6 characters."
+If all validations pass, log "Form submitted successfully!" to the console and clear any error messages. Otherwise, keep error messages displayed.
+Concepts Covered: DOM Selection, Event Handling (preventDefault), Conditional Statements, String Methods (length, includes), textContent for error messages. -->
