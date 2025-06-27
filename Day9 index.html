@@ -16,3 +16,76 @@ Check if the password input is empty. If so, display "Password is required." in 
 Check if the password is at least 6 characters long. If not, display "Password must be at least 6 characters."
 If all validations pass, log "Form submitted successfully!" to the console and clear any error messages. Otherwise, keep error messages displayed.
 Concepts Covered: DOM Selection, Event Handling (preventDefault), Conditional Statements, String Methods (length, includes), textContent for error messages. -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Form Validation</title>
+</head>
+<body>
+
+  <h1>Login Form</h1>
+
+  <form id="loginForm">
+    <label for="emailInput">Email:</label>
+    <input type="text" id="emailInput">
+    <p id="emailError" style="color: red;"></p>
+
+    <label for="passwordInput">Password:</label>
+    <input type="password" id="passwordInput">
+    <p id="passwordError" style="color: red;"></p>
+
+    <button type="submit" id="submitBtn">Submit</button>
+  </form>
+
+  <script>
+   
+    const emailInput = document.getElementById('emailInput');
+    const passwordInput = document.getElementById('passwordInput');
+    const submitBtn = document.getElementById('submitBtn');
+    const emailError = document.getElementById('emailError');
+    const passwordError = document.getElementById('passwordError');
+
+    
+    submitBtn.addEventListener('click', function (event) {
+      event.preventDefault(); 
+
+    
+      const email = emailInput.value.trim();
+      const password = passwordInput.value;
+
+     
+      emailError.textContent = '';
+      passwordError.textContent = '';
+
+      let isValid = true;
+
+      
+      if (email === '') {
+        emailError.textContent = 'Email is required.';
+        isValid = false;
+      } else if (!email.includes('@') || !email.includes('.')) {
+        emailError.textContent = 'Invalid email format.';
+        isValid = false;
+      }
+
+     
+      if (password === '') {
+        passwordError.textContent = 'Password is required.';
+        isValid = false;
+      } else if (password.length < 6) {
+        passwordError.textContent = 'Password must be at least 6 characters.';
+        isValid = false;
+      }
+
+      
+      if (isValid) {
+        console.log('Form submitted successfully!');
+      }
+    });
+  </script>
+
+</body>
+</html>
