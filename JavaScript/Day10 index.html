@@ -97,7 +97,8 @@
         clearInterval(intervalId);
         intervalId = null;
         pauseBtn.textContent = "Play";
-      } else {
+      } else 
+      {
         intervalId = setInterval(showNextImage, 3000);
         pauseBtn.textContent = "Pause";
       }

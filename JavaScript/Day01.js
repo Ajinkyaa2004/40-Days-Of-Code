@@ -8,6 +8,7 @@
 // Test your functions with various numbers and log the results to the console.
 // Concepts Covered: Variables, Data Types (numbers), Arithmetic Operators, Functions, return statement, Conditional Statements.
 
+
 function add(a,b){
     return a+b;
 }
