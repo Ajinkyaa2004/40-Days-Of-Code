@@ -10,3 +10,34 @@
 // Bonus: Add a button to App.jsx that toggles the isLoggedIn state for one of the Greeting components.
 // Concepts Covered: Props, Conditional Rendering (if/else, ternary operator, logical &&), useState (for bonus).
 
+import React, { useState } from 'react';
+
+function Greeting({ name, isLoggedIn }) {
+  return (
+    <div>
+      {isLoggedIn ? (
+        <h2>Welcome back, {name}!</h2>
+      ) : (
+        <h2>Please log in.</h2>
+      )}
+    </div>
+  );
+}
+
+function App() {
+  const [isLoggedIn, setIsLoggedIn] = useState(true);
+
+  const toggleLogin = () => setIsLoggedIn(prev => !prev);
+
+  return (
+    <div style={{ padding: '20px', fontFamily: 'Arial' }}>
+      <Greeting name="Guest" isLoggedIn={false} />
+
+      <Greeting name="Alice" isLoggedIn={isLoggedIn} />
+      <button onClick={toggleLogin}>
+        {isLoggedIn ? 'Log Out' : 'Log In'}
+      </button>
+    </div>
+  );
+}
+export default App;
