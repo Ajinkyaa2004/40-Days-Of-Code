@@ -7,3 +7,55 @@
 // Next to each to-do item, add a "Delete" button. When clicked, remove that item from the list.
 // Add an input field and an "Add To-Do" button to add new items to the list. Ensure new items have a unique id.
 // Concepts Covered: useState (with arrays), List Rendering (map, key), Event Handling, Immutability of State (when updating arrays).
+
+
+
+
+import React, { useState } from 'react';
+
+const TodoList = () => {
+  const [todos, setTodos] = useState([
+    { id: 1, text: 'Learn React', completed: false },
+    { id: 2, text: 'Build a project', completed: false },
+  ]);
+
+  const [newTodo, setNewTodo] = useState('');
+
+  const handleAdd = () => {
+    if (newTodo.trim() === '') return;
+    const newItem = {
+      id: Date.now(),
+      text: newTodo,
+      completed: false,
+    };
+    setTodos([...todos, newItem]);
+    setNewTodo('');
+ };
+
+  const handleDelete = (id) => {
+    setTodos(todos.filter((todo) => todo.id !== id));
+  };
+
+  return (
+    <div>
+      <h2>My To-Do List</h2>
+      <ul>
+        {todos.map((todo) => (
+          <li key={todo.id}>
+            {todo.text}
+            <button onClick={() => handleDelete(todo.id)}>Delete</button>
+          </li>
+        ))}
+      </ul>
+      <input
+        type="text"
+        value={newTodo}
+        onChange={(e) => setNewTodo(e.target.value)}
+        placeholder="New task"
+      />
+      <button onClick={handleAdd}>Add To-Do</button>
+    </div>
+  );
+};
+
+export default TodoList;
