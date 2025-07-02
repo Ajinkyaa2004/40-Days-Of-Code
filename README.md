@@ -20,8 +20,8 @@ I'm solving 30 coding challenges in 30 days — 10 each from JavaScript, React.j
 | 9   | JavaScript   |27 June 2025 | Form Validation (DOM Manipulation, Conditional Logic, String Methods)                   |                                 
 | 10  | JavaScript   |28 June 2025 | Image Carousel/Slider (DOM Manipulation, Loops, setTimeout/setInterval - Advanced)      |                                  
 | 11  | React js     |30 June 2025 |Simple Counter with State and Event Handling                                             |                                  
-| 12  | React js     |             |                                                                                         |                                  
-| 13  | React js     |             |                                                                                         |
+| 12  | React js     |01 June 2025 |Dynamic Welcome Message with Props and Conditional Rendering                             |                                  
+| 13  | React js     |02 June 2025 |Basic To-Do List with List Rendering and State Updates                                   |
 | 14  | React js     |             |                                                                                         |
 | 15  | React js     |             |                                                                                         |
 | 16  | React js     |             |                                                                                         |
