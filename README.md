@@ -1,6 +1,6 @@
-# 🚀 30 Days of Code Challenge (Javascript + React Js + Java)
+# 🚀 40 Days of Code Challenge (Javascript + React Js + Java + SpringBoot)
 
-I'm solving 30 coding challenges in 30 days — 10 each from JavaScript, React.js, and Java — to strengthen my core skills.
+I'm solving 40 coding challenges in 40 days — 10 each from JavaScript, React.js, Java and SpringBoot — to strengthen my core skills.
 
 ---
 
@@ -39,6 +39,16 @@ I'm solving 30 coding challenges in 30 days — 10 each from JavaScript, React.j
 | 28  | Java         |             |                                                                                         |
 | 29  | Java         |             |                                                                                         |
 | 30  | Java         |             |                                                                                         |
+| 31  | SpringBoot   |             |                                                                                         |
+| 32  | SpringBoot   |             |                                                                                         |
+| 33  | SpringBoot   |             |                                                                                         |
+| 34  | SpringBoot   |             |                                                                                         |
+| 35  | SpringBoot   |             |                                                                                         |
+| 36  | SpringBoot   |             |                                                                                         |
+| 37  | SpringBoot   |             |                                                                                         |
+| 38  | SpringBoot   |             |                                                                                         |
+| 39  | SpringBoot   |             |                                                                                         |
+| 40  | SpringBoot   |             |                                                                                         |
 
 
 
@@ -50,6 +60,7 @@ I'm solving 30 coding challenges in 30 days — 10 each from JavaScript, React.j
 - Days 1–10: JavaScript problems (core logic, arrays, strings, DOM)
 - Days 11–20: React.js (components, props, hooks, mini UIs)
 - Days 21–30: Java (OOP, basic problems, file handling, collections)
+- Days 31-40: SpringBoot (APIs, H2 Database, Basic Authentication, Exception Handling)
 
 ---
 
