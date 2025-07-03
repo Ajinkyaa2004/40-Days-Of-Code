@@ -9,8 +9,6 @@
 // Concepts Covered: useState (with arrays), List Rendering (map, key), Event Handling, Immutability of State (when updating arrays).
 
 
-
-
 import React, { useState } from 'react';
 
 const TodoList = () => {
