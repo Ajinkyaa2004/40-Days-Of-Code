@@ -25,7 +25,7 @@ I'm solving 40 coding challenges in 40 days — 10 each from JavaScript, React.j
 | 14  | React js     |03 June2025  | Simple Data Fetcher with useEffect and Loading State                                    |
 | 15  | React js     |04 June 2025 | Modal Component with Props and State                                                    |
 | 16  | React js     |06 June 2025 | Tabbed Interface with State and Conditional Rendering                                   |
-| 17  | React js     |             |                                                                                         |
+| 17  | React js     |07 June 2025 | Simple Router for a Multi-Page App (using React Router DOM)                             |
 | 18  | React js     |             |                                                                                         |
 | 19  | React js     |             |                                                                                         |
 | 20  | React js     |             |                                                                                         |
