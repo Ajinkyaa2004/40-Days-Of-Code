@@ -9,3 +9,37 @@
 
 
 
+import React, { useState, useEffect } from 'react';
+
+function CharacterCounter() {
+  const [text, setText] = useState('');
+
+  useEffect(() => {
+    console.log(`Character count: ${text.length}`);
+  }, [text]); 
+
+  return (
+    <div style={{ padding: '20px', fontFamily: 'Arial' }}>
+      <h2>Character Counter</h2>
+      <textarea
+        value={text}
+        onChange={(e) => setText(e.target.value)}
+        rows="5"
+        cols="40"
+        placeholder="Type something..."
+        style={{ padding: '8px', fontSize: '16px' }}
+      />
+      <p>Character Count: {text.length}</p>
+    </div>
+  );
+}
+
+function App() {
+  return (
+    <div>
+      <CharacterCounter />
+    </div>
+  );
+}
+
+export default App;
