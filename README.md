@@ -29,7 +29,7 @@ I'm solving 40 coding challenges in 40 days — 10 each from JavaScript, React.j
 | 18  | React js     |08 June 2025 | Theme Switcher with Context API                                                         |
 | 19  | React js     |09 June 2025 | useToggle Custom Hook                                                                   |
 | 20  | React js     |10 June 2025 | Character Counter (Input Handling and useEffect - Basic)                                |
-| 21  | Java         |             |                                                                                         |
+| 21  | Java         |11 June 2025 | Basic Calculator (Syntax, Data Types, Operators, Methods)                               |
 | 22  | Java         |             |                                                                                         |
 | 23  | Java         |             |                                                                                         |
 | 24  | Java         |             |                                                                                         |
