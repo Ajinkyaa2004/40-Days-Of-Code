@@ -18,7 +18,9 @@ I'm solving 40 coding challenges in 40 days — 10 each from JavaScript, React.j
 | 7   | JavaScript   |25 June 2025 | Countdown Timer (Asynchronous JS - setTimeout, setInterval)                             |
 | 8   | JavaScript   |26 June 2025 | Fetching User Data (Asynchronous JS - fetch, Promises)                                  |  
 | 9   | JavaScript   |27 June 2025 | Form Validation (DOM Manipulation, Conditional Logic, String Methods)                   |
-| 10  | JavaScript   |28 June 2025 | Image Carousel/Slider (DOM Manipulation, Loops, setTimeout/setInterval - Advanced)      |        
+| 10  | JavaScript   |28 June 2025 | Image Carousel/Slider (DOM Manipulation, Loops, setTimeout/setInterval - Advanced)      |   
+
+
 | 11  | React js     |30 June 2025 | Simple Counter with State and Event Handling                                            |       
 | 12  | React js     |01 June 2025 | Dynamic Welcome Message with Props and Conditional Rendering                            |       
 | 13  | React js     |02 June 2025 | Basic To-Do List with List Rendering and State Updates                                  |
@@ -29,6 +31,8 @@ I'm solving 40 coding challenges in 40 days — 10 each from JavaScript, React.j
 | 18  | React js     |08 June 2025 | Theme Switcher with Context API                                                         |
 | 19  | React js     |09 June 2025 | useToggle Custom Hook                                                                   |
 | 20  | React js     |10 June 2025 | Character Counter (Input Handling and useEffect - Basic)                                |
+
+
 | 21  | Java         |11 June 2025 | Basic Calculator (Syntax, Data Types, Operators, Methods)                               |
 | 22  | Java         |             |                                                                                         |
 | 23  | Java         |             |                                                                                         |
@@ -39,6 +43,8 @@ I'm solving 40 coding challenges in 40 days — 10 each from JavaScript, React.j
 | 28  | Java         |             |                                                                                         |
 | 29  | Java         |             |                                                                                         |
 | 30  | Java         |             |                                                                                         |
+
+
 | 31  | SpringBoot   |             |                                                                                         |
 | 32  | SpringBoot   |             |                                                                                         |
 | 33  | SpringBoot   |             |                                                                                         |
