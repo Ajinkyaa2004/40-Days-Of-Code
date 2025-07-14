@@ -12,3 +12,33 @@
 // Invalid scores (<0 or >100) should return 'X' or throw an IllegalArgumentException.
 // In your main method, test the getGrade method with different scores and print the results.
 // Concepts Covered: if-else if-else statements, return type char, method parameters, basic error handling.
+
+
+
+class GradeDeterminer {
+    public static char getGrade(int score) {
+        if (score < 0 || score > 100) {
+            return 'X';
+        } else if (score >= 90) {
+            return 'A';
+        } else if (score >= 80) {
+            return 'B';
+        } else if (score >= 70) {
+            return 'C';
+        } else if (score >= 60) {
+            return 'D';
+        } else {
+            return 'F';
+        }
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        int[] testScores = {95, 85, 75, 65, 55, -5, 110};
+
+        for (int score : testScores) {
+            char grade = GradeDeterminer.getGrade(score);
+            System.out.println("Score: " + score + " => Grade: " + grade);
+        }
+    }
+}
