@@ -31,8 +31,8 @@ I'm solving 40 coding challenges in 40 days — 10 each from JavaScript, React.j
 | 20  | React js     |10 June 2025 | Character Counter (Input Handling and useEffect - Basic)                                |
 | 21  | Java         |11 June 2025 | Basic Calculator (Syntax, Data Types, Operators, Methods)                               |
 | 22  | Java         |14 June 2025 | Grade Determiner (Control Flow - Conditionals)                                          |
-| 23  | Java         |15 June 2025 | Array Operations (Arrays, Loops)                                                        |
-| 24  | Java         |             |                                                                                         |
+| 23  | Java         |16 June 2025 | Array Operations (Arrays, Loops)                                                        |
+| 24  | Java         |17 June 2025 | Simple Student Class (Classes, Objects, Encapsulation, Constructors)                    |
 | 25  | Java         |             |                                                                                         |
 | 26  | Java         |             |                                                                                         |
 | 27  | Java         |             |                                                                                         |
