@@ -13,3 +13,58 @@
 // Create objects of Circle and Rectangle.
 // Call calculateArea() and display() on each object and print the results.
 // Concepts Covered: Inheritance (extends), abstract classes and methods, Method Overriding, super keyword.
+
+public class Geometry {
+    abstract static class Shape {
+        protected String name;
+
+        public Shape(String name) {
+            this.name = name;
+        }
+
+        public abstract double calculateArea();
+
+        public void display() {
+            System.out.println("Shape: " + name);
+        }
+    }
+
+    static class Circle extends Shape {
+        private double radius;
+
+        public Circle(double radius) {
+            super("Circle");
+            this.radius = radius;
+        }
+
+        @Override
+        public double calculateArea() {
+            return Math.PI * radius * radius;
+        }
+    }
+    static class Rectangle extends Shape {
+        private double width;
+        private double height;
+
+        public Rectangle(double width, double height) {
+            super("Rectangle");
+            this.width = width;
+            this.height = height;
+        }
+
+        @Override
+        public double calculateArea() {
+            return width * height;
+        }
+    }
+    public static void main(String[] args) {
+        Circle c = new Circle(5.0);
+        Rectangle r = new Rectangle(4.0, 6.0);
+
+        c.display();
+        System.out.println("Area: " + c.calculateArea());
+
+        r.display();
+        System.out.println("Area: " + r.calculateArea());
+    }
+}
