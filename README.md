@@ -36,7 +36,7 @@ I'm solving 40 coding challenges in 40 days — 10 each from JavaScript, React.j
 | 25  | Java         |21 June 2025 | Shape Hierarchy (Inheritance, Method Overriding)                                        |
 | 26  | Java         |22 June 2025 | Polymorphism Example (Polymorphism, Arrays of Objects)                                  |
 | 27  | Java         |23 June 2025 | Bank Account (Interfaces)                                                               |
-| 28  | Java         |             |                                                                                         |
+| 28  | Java         |24 June 2025 | Simple Exception Handling (Exception Handling)                                          |
 | 29  | Java         |             |                                                                                         |
 | 30  | Java         |             |                                                                                         |
 | 31  | SpringBoot   |             |                                                                                         |
