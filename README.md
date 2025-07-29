@@ -39,7 +39,7 @@ I'm solving 40 coding challenges in 40 days — 10 each from JavaScript, React.j
 | 28  | Java         |24 June 2025 | Simple Exception Handling (Exception Handling)                                          |
 | 29  | Java         |25 June 2025 | Basic List Operations (Collections - ArrayList)                                         |
 | 30  | Java         |             |                                                                                         |
-| 31  | SpringBoot   |             |                                                                                         |
+| 31  | SpringBoot   |29 June 2025 |  Simple REST API                                                                        |
 | 32  | SpringBoot   |             |                                                                                         |
 | 33  | SpringBoot   |             |                                                                                         |
 | 34  | SpringBoot   |             |                                                                                         |
