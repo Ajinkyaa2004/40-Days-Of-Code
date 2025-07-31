@@ -3,104 +3,104 @@
 // entity with fields: id, name, email, and department.
 // Goal: Use Spring Data JPA with JpaRepository, and map endpoints using @RestController.
 
-// package com.example.studentapi;
+package com.example.studentapi;
 
-// import org.springframework.boot.SpringApplication;
-// import org.springframework.boot.autoconfigure.SpringBootApplication;
-// import org.springframework.web.bind.annotation.*;
-// import org.springframework.data.jpa.repository.JpaRepository;
-// import org.springframework.stereotype.Repository;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
-// import javax.persistence.*;
-// import java.util.List;
-// import java.util.Optional;
+import javax.persistence.*;
+import java.util.List;
+import java.util.Optional;
 
-// @SpringBootApplication
-// public class StudentApplication {
-//     public static void main(String[] args) {
-//         SpringApplication.run(StudentApplication.class, args);
-//     }
-// }
+@SpringBootApplication
+public class StudentApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(StudentApplication.class, args);
+    }
+}
 
-// @Entity
-// class Student {
-//     @Id
-//     @GeneratedValue(strategy = GenerationType.IDENTITY)
-//     private Long id;
+@Entity
+class Student {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
 
-//     private String name;
-//     private String email;
-//     private String department;
-
-
-//     public Student() {}
-//     public Student(String name, String email, String department) {
-//         this.name = name;
-//         this.email = email;
-//         this.department = department;
-//     }
+    private String name;
+    private String email;
+    private String department;
 
 
-//     public Long getId() { return id; }
-//     public void setId(Long id) { this.id = id; }
-
-//     public String getName() { return name; }
-//     public void setName(String name) { this.name = name; }
-
-//     public String getEmail() { return email; }
-//     public void setEmail(String email) { this.email = email; }
-
-//     public String getDepartment() { return department; }
-//     public void setDepartment(String department) { this.department = department; }
-// }
+    public Student() {}
+    public Student(String name, String email, String department) {
+        this.name = name;
+        this.email = email;
+        this.department = department;
+    }
 
 
-// @Repository
-// interface StudentRepository extends JpaRepository<Student, Long> {
-// }
+    public Long getId() { return id; }
+    public void setId(Long id) { this.id = id; }
+
+    public String getName() { return name; }
+    public void setName(String name) { this.name = name; }
+
+    public String getEmail() { return email; }
+    public void setEmail(String email) { this.email = email; }
+
+    public String getDepartment() { return department; }
+    public void setDepartment(String department) { this.department = department; }
+}
 
 
-// @RestController
-// @RequestMapping("/students")
-// class StudentController {
-//     private final StudentRepository repository;
-
-//     public StudentController(StudentRepository repository) {
-//         this.repository = repository;
-//     }
+@Repository
+interface StudentRepository extends JpaRepository<Student, Long> {
+}
 
 
-//     @PostMapping
-//     public Student createStudent(@RequestBody Student student) {
-//         return repository.save(student);
-//     }
+@RestController
+@RequestMapping("/students")
+class StudentController {
+    private final StudentRepository repository;
+
+    public StudentController(StudentRepository repository) {
+        this.repository = repository;
+    }
 
 
-//     @GetMapping
-//     public List<Student> getAllStudents() {
-//         return repository.findAll();
-//     }
+    @PostMapping
+    public Student createStudent(@RequestBody Student student) {
+        return repository.save(student);
+    }
 
 
-//     @GetMapping("/{id}")
-//     public Student getStudentById(@PathVariable Long id) {
-//         return repository.findById(id).orElseThrow(() -> new RuntimeException("Student not found"));
-//     }
+    @GetMapping
+    public List<Student> getAllStudents() {
+        return repository.findAll();
+    }
 
 
-//     @PutMapping("/{id}")
-//     public Student updateStudent(@PathVariable Long id, @RequestBody Student updatedStudent) {
-//         Student student = repository.findById(id).orElseThrow(() -> new RuntimeException("Student not found"));
-//         student.setName(updatedStudent.getName());
-//         student.setEmail(updatedStudent.getEmail());
-//         student.setDepartment(updatedStudent.getDepartment());
-//         return repository.save(student);
-//     }
+    @GetMapping("/{id}")
+    public Student getStudentById(@PathVariable Long id) {
+        return repository.findById(id).orElseThrow(() -> new RuntimeException("Student not found"));
+    }
 
 
-//     @DeleteMapping("/{id}")
-//     public String deleteStudent(@PathVariable Long id) {
-//         repository.deleteById(id);
-//         return "Student deleted successfully";
-//     }
-// }
+    @PutMapping("/{id}")
+    public Student updateStudent(@PathVariable Long id, @RequestBody Student updatedStudent) {
+        Student student = repository.findById(id).orElseThrow(() -> new RuntimeException("Student not found"));
+        student.setName(updatedStudent.getName());
+        student.setEmail(updatedStudent.getEmail());
+        student.setDepartment(updatedStudent.getDepartment());
+        return repository.save(student);
+    }
+
+
+    @DeleteMapping("/{id}")
+    public String deleteStudent(@PathVariable Long id) {
+        repository.deleteById(id);
+        return "Student deleted successfully";
+    }
+}
