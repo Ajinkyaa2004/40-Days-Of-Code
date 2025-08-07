@@ -46,9 +46,9 @@ I'm solving 40 coding challenges in 40 days — 10 each from JavaScript, React.j
 | 35  | SpringBoot   |07 June 2025 | Connect Spring Boot with H2 Database                                                    |
 | 36  | SpringBoot   |08 June 2025 | Pagination and Sorting for API                                                          |
 | 37  | SpringBoot   |09 June 2025 | Custom Query Using @Query                                                               |
-| 38  | SpringBoot   ||              |
-| 39  | SpringBoot   ||              |
-| 40  | SpringBoot   ||              |
+| 38  | SpringBoot   |10 June 2025 | One-to-Many Relationship                                                                |
+| 39  | SpringBoot   |11 June 2025 | Create and Use DTOs                                                                     |
+| 40  | SpringBoot   |12 June 2025 |              |
 
 
 
