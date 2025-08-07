@@ -43,7 +43,7 @@ I'm solving 40 coding challenges in 40 days — 10 each from JavaScript, React.j
 | 32  | SpringBoot   |31 June 2025 | CRUD API for Student Entity                                                             |
 | 33  | SpringBoot   |01 June 2025 | Add Validation to a POST API                                                            |
 | 34  | SpringBoot   |03 June 2025 | Global Exception Handling                                                               |
-| 35  | SpringBoot   |             |                                                                                         |
+| 35  | SpringBoot   |07 June 2025 | Connect Spring Boot with H2 Database                                                    |
 | 36  | SpringBoot   |             |                                                                                         |
 | 37  | SpringBoot   |             |                                                                                         |
 | 38  | SpringBoot   |             |                                                                                         |
