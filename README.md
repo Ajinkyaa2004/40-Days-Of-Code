@@ -48,7 +48,7 @@ I'm solving 40 coding challenges in 40 days — 10 each from JavaScript, React.j
 | 37  | SpringBoot   |09 June 2025 | Custom Query Using @Query                                                               |
 | 38  | SpringBoot   |10 June 2025 | One-to-Many Relationship                                                                |
 | 39  | SpringBoot   |11 June 2025 | Create and Use DTOs                                                                     |
-| 40  | SpringBoot   |12 June 2025 |              |
+| 40  | SpringBoot   |12 June 2025 | Secure API with Basic Authentication                                                    |
 
 
 
