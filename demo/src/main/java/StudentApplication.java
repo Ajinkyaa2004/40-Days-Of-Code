@@ -1,7 +1,7 @@
 // CRUD API for Student Entity
-// Problem: Build a REST API to perform Create, Read, Update, and Delete (CRUD) operations on a Student 
+// Problem:Build a REST API to perform Create, Read, Update, and Delete (CRUD) operations on a Student 
 // entity with fields: id, name, email, and department.
-// Goal: Use Spring Data JPA with JpaRepository, and map endpoints using @RestController.
+// Goal:Use Spring Data JPA with JpaRepository, and map endpoints using @RestController.
 
 package com.example.studentapi;
 
