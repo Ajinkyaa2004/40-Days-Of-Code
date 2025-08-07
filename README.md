@@ -45,7 +45,7 @@ I'm solving 40 coding challenges in 40 days — 10 each from JavaScript, React.j
 | 34  | SpringBoot   |03 June 2025 | Global Exception Handling                                                               |
 | 35  | SpringBoot   |07 June 2025 | Connect Spring Boot with H2 Database                                                    |
 | 36  | SpringBoot   |08 June 2025 | Pagination and Sorting for API                                                          |
-| 37  | SpringBoot   ||              |
+| 37  | SpringBoot   |09 June 2025 | Custom Query Using @Query                                                               |
 | 38  | SpringBoot   ||              |
 | 39  | SpringBoot   ||              |
 | 40  | SpringBoot   ||              |
