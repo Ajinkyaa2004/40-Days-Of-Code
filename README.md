@@ -70,6 +70,10 @@ I'm solving 40 coding challenges in 40 days — 10 each from JavaScript, React.j
 - One folder per day with README or solution
 - Push to GitHub daily
 
+
+
+🔗 https://itsajinkya.vercel.app | 📫 https://www.linkedin.com/in/ajinkya2004
+
 ---
 
 > "Discipline is greater than motivation." — Let’s stay consistent!
